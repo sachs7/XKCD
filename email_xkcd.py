@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 
 from download_xkcd import new_comic_number
 
-email_from = <EMAIL ID>
-recipients = <LIST of EMAIL IDs>
+email_from = <EMAIL_ID>
+recipients = <LIST_Of_EMAIL_IDs>
 file_to_send = new_comic_number() + '.png'
 username = email_from
 password = <PASSWORD>
